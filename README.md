@@ -1,1 +1,1 @@
-# cmi-pb-preds
+# cmi-pb-multi-omics
