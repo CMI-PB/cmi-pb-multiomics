@@ -1,5 +1,5 @@
 # setting the output directory
-outdir="results/main/cmi_pb_datasets/"
+outdir="results/main/cmi_pb_datasets/raw/"
 
 # links are coming from: 
 # https://www.cmi-pb.org/mycmipb/2021_prediction_challenge/
