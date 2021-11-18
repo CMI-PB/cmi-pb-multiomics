@@ -2,7 +2,7 @@
 set -euo pipefail
 IFS=$'\n\t'
 
-outdir="results/main/cmipb_datasets/"
+outdir="results/main/cmi_pb_datasets/"
 mkdir -p $outdir
 
 #########################################################################################
