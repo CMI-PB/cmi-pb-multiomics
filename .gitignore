@@ -1,4 +1,12 @@
 *~
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
-results
+#results
+
+!results/
+results/*
+!results/main/
+results/main/*
+!results/main/cmi_pb_datasets/
+results/main/cmi_pb_datasets/*
+!results/main/cmi_pb_datasets/processed/
