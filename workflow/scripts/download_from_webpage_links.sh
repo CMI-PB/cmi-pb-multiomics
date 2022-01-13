@@ -9,42 +9,43 @@ outdir="results/main/cmi_pb_datasets/raw/"
 #########################################################################################
 
 # get subject data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_subject.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_subject.csv
 
 # get specimen data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_specimen.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_specimen.csv
 
-# get antibody titer data (status: temporarily skipped)
-#wget -O $outdir https://www.cmi-pb.org/api/v1/ab_titer
+# get antibody titer data (status: good)
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_ab_titer.csv
 
 # get rnaseq data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_rnaseq.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_rnaseq.csv
 
 # get protein data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_olink_prot_exp.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_olink_prot_exp.csv
 
-# get cell frequencies data (status: broken link)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_cell_frequency.csv
+# get cell frequencies data (status: good)
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020LD_live_cell_percentages.csv
 
 #########################################################################################
 # Download 2021 data ####################################################################
 #########################################################################################
 
-# get subject data (status: incorrect link)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020BD_subject.csv
+# get subject data (status: good)
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_subject.csv
 
 # get specimen data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_specimen.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_specimen.csv
 
-# get antibody titer data (note generated for 2021)
+# get antibody titer data (status: good)
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_ab_titer.csv
 
 # get rnaseq data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_rnaseq.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_rnaseq.csv
 
 # get protein data (status: good)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_olink_prot_exp.csv
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_olink_prot_exp.csv
 
-# get cell frequencies data (status: incorrect & broken link)
-wget -O $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2020BD_cell_frequency.csv
+# get cell frequencies data (status: good)
+wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_live_cell_percentages.csv
 
 
