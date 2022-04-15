@@ -5,8 +5,9 @@ At this point this repository stores the codes to standardize (mostly) the CMI-P
 ## Processing Steps
 Download the data by using:
 ```
-bash workflow/scripts/download_from_ftp_server.sh
+bash workflow/scripts/download_from_webpage_links.sh
 ```
+Note: Don't use `workflow/scripts/download_from_ftp_server.sh`. Not working due to certificate issues.
 
 ## Ongoing Problems & Brainstorming
 - Normalization Issue for Ab titer data, scaling difference between Abtiter values for 2020 and 2021 
