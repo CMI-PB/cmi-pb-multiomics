@@ -5,7 +5,7 @@ At this point this repository stores the codes to standardize (mostly) the CMI-P
 ## Processing Steps
 Download the data by using:
 ```
-workflow/scripts/download_from_ftp_server.sh
+bash workflow/scripts/download_from_ftp_server.sh
 ```
 
 ## Ongoing Problems & Brainstorming
