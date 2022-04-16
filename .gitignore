@@ -10,3 +10,8 @@ results/main/*
 !results/main/cmi_pb_datasets/
 results/main/cmi_pb_datasets/*
 !results/main/cmi_pb_datasets/processed/
+
+!results/refs/
+results/refs/*
+!results/refs/gencode/
+!results/refs/tasks.tsv

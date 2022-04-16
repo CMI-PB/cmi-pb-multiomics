@@ -47,5 +47,3 @@ wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_c
 
 # get cell frequencies data (status: good)
 wget --no-check-certificate -P  $outdir https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2021_cmipb_challenge/2021BD_live_cell_percentages.csv
-
-
