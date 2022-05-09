@@ -2,6 +2,10 @@ assay	fullname	shortname	fetchname	day
 abtiters	IgG-PT	igg-pt	IgG-PT	14
 abtiters	IgG-FHA	igg-fha	IgG-FHA	14
 abtiters	IgG-PRN	igg-prn	IgG-PRN	14
+abtiters	IgG1-PT	igg1-pt	IgG1-PT	14
+abtiters	IgG1-FHA	igg1-fha	IgG1-FHA	14
+abtiters	IgG4-PT	igG4-pt	IgG4-PT	14
+abtiters	IgG4-FHA	igG4-fha	IgG4-FHA	14
 cytof	Monocytes	monocytes	Monocytes	1
 cytof	Plasmablasts	plasmablasts	ASCs (Plasmablasts)	7
 cytof	CD4Tcm	tcm-cd4	CD4Tcells	3
