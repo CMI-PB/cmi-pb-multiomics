@@ -15,3 +15,31 @@ results/main/cmi_pb_datasets/*
 results/refs/*
 !results/refs/gencode/
 !results/refs/tasks.tsv
+
+# first challenge ignore dirs/files
+!first_challenge/results/
+first_challenge/results/*
+!first_challenge/results/main/
+first_challenge/results/main/*
+!first_challenge/results/main/cmi_pb_datasets/
+first_challenge/results/main/cmi_pb_datasets/*
+!first_challenge/results/main/cmi_pb_datasets/processed/
+
+!first_challenge/results/refs/
+first_challenge/results/refs/*
+!first_challenge/results/refs/gencode/
+!first_challenge/results/refs/tasks.tsv
+
+# second challenge ignore dirs/files
+!second_challenge/results/
+second_challenge/results/*
+!second_challenge/results/main/
+second_challenge/results/main/*
+!second_challenge/results/main/cmi_pb_datasets/
+second_challenge/results/main/cmi_pb_datasets/*
+!second_challenge/results/main/cmi_pb_datasets/processed/
+
+!second_challenge/results/refs/
+second_challenge/results/refs/*
+!second_challenge/results/refs/gencode/
+!second_challenge/results/refs/tasks.tsv
