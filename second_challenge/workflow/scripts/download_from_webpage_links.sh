@@ -12,4 +12,6 @@ wget --no-check-certificate \
      --recursive \
      --no-parent \
      --directory-prefix $outdir \
-     https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2nd_cmipb_challenge/10202022/
+     https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2nd_cmipb_challenge/11282022/
+     
+    # https://www.cmi-pb.org/downloads/cmipb_challenge_datasets/2nd_cmipb_challenge/10202022/

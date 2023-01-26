@@ -1,0 +1,25 @@
+subject_id	infancy_vac	biological_sex	year_of_birth	date_of_boost	ethnicity	race	specimen_type
+97	wP	Male	1986-01-01	2021-11-29	Not Hispanic or Latino	White	Blood
+98	aP	Female	1997-01-01	2016-11-28	Not Hispanic or Latino	Asian	Blood
+99	wP	Female	1993-01-01	2021-09-27	Not Hispanic or Latino	White	Blood
+100	aP	Female	1999-01-01	2021-09-07	Hispanic or Latino	Unknown or Not Reported	Blood
+101	aP	Female	2001-01-01	2021-11-01	Not Hispanic or Latino	White	Blood
+102	aP	Male	2003-01-01	2021-11-01	Not Hispanic or Latino	White	Blood
+103	aP	Male	2003-01-01	2021-11-01	Not Hispanic or Latino	White	Blood
+104	wP	Female	1994-01-01	2021-09-07	Not Hispanic or Latino	White	Blood
+105	wP	Female	1989-01-01	2021-09-07	Not Hispanic or Latino	Asian	Blood
+106	wP	Female	1994-01-01	2021-09-07	Not Hispanic or Latino	White	Blood
+107	aP	Female	1996-01-01	2021-09-07	Not Hispanic or Latino	White	Blood
+108	aP	Female	1998-01-01	2021-09-07	Not Hispanic or Latino	Asian	Blood
+109	wP	Female	1995-01-01	2021-09-27	Not Hispanic or Latino	White	Blood
+110	wP	Female	1989-01-01	2021-09-27	Not Hispanic or Latino	White	Blood
+111	aP	Female	1997-01-01	2021-09-27	Hispanic or Latino	White	Blood
+112	wP	Male	1996-01-01	2021-10-18	Not Hispanic or Latino	White	Blood
+113	aP	Male	1996-01-01	2021-10-18	Not Hispanic or Latino	White	Blood
+115	wP	Male	1990-01-01	2021-10-18	Not Hispanic or Latino	Asian	Blood
+116	aP	Female	2002-01-01	2021-11-01	Not Hispanic or Latino	Asian	Blood
+117	aP	Male	2000-01-01	2021-11-29	Not Hispanic or Latino	White	Blood
+118	aP	Female	1994-01-01	2021-11-29	Hispanic or Latino	More Than One Race	Blood
+119	aP	Male	1998-01-01	2022-01-24	Not Hispanic or Latino	Asian	Blood
+120	wP	Male	1989-01-01	2022-01-24	Not Hispanic or Latino	Asian	Blood
+121	aP	Female	2001-01-01	2022-01-24	Hispanic or Latino	Unknown or Not Reported	Blood
