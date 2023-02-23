@@ -12,22 +12,23 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ## Load libraries
-```{r, load-libraries, echo=FALSE, message=FALSE}
+```{r, load-libraries, message=FALSE}
 library(tidyverse)
 library(tibble)
 library(UpSetR)
 library(mice)
-library(dplyr)
+#library(dplyr)
 ```
 
 ## Set environment values
 ```{r, set-env}
 # set year
 if (exists("params") == TRUE) {
-    year <- params$year
+    year <- as.integer(params$year)
 } else {
     year = 2020
 }
+message(paste("Final year chosen:", year))
 
 # Set path to the harmonized directory
 harmony_dir = "../../../results/main/cmi_pb_datasets/processed/all_versus_all/harmonized/"
@@ -41,8 +42,6 @@ dir.create(outdir, recursive = TRUE, showWarnings = TRUE)
 ## Import Data
 ### Initialize the datasets
 ```{r, initialize-the-datasets}
-year <- 2020 
-
 assays <- c("ab_titer", "live_cell_percentages", "olink", "rnaseq")
 
 debug <- TRUE
@@ -79,7 +78,6 @@ for (i in 1:length(assays)) {
   
   datasets[[assay]] <- curr_ds
 }
-message("")
 ```
 
 ## Investigate the intersection of available data per year
@@ -88,12 +86,13 @@ list_input <- list()
 for (assay in assays){
     list_input[[assay]] <- row.names(datasets[[assay]])
 }
-upsetplot <- upset(fromList(list_input), order.by = "freq")
 
-img_fn = sprintf(file.path(outdir, "upset.%s.svg"), year)
-svg(img_fn)
-upsetplot;
-dev.off();
+invisible({
+    img_fn = sprintf(file.path(outdir, "upset.%s.svg"), year)
+    svg(img_fn)
+    upsetplot <- upset(fromList(list_input), order.by = "freq")
+    dev.off()
+})
 upsetplot
 ```
 
@@ -242,9 +241,6 @@ if (debug == TRUE){
     imputed_Data <- mice(X_mat, m=4, maxit = 25, method = 'pmm', seed = 500)
 }
 ```
-```{r, stopping}
-stop("Stopping")
-```
 
 ## Save the imputated data
 #### Extract the imputed data
@@ -306,10 +302,12 @@ heatmap <- ggplot(reshape2::melt(X_mat)) +
         axis.title.x = element_text(size = 10),
         axis.title.y = element_text(size = 10, angle = 90))
    
-img_fn = sprintf(file.path(outdir, "imputed_heatmap.%s.svg"), year)
-svg(img_fn)
-heatmap
-dev.off()
+invisible({
+    img_fn = sprintf(file.path(outdir, "imputed_heatmap.%s.svg"), year)
+    heatmap
+    svg(img_fn)
+    dev.off()
+})
 heatmap
 ```
 
