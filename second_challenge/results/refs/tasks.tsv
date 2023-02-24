@@ -1,7 +1,7 @@
 assay	fullname	shortname	fetchname	days
-ab_titer	IgG-PT	igg-pt	IgG-PT	14
-ab_titer	IgG-PT	igg-pt	IgG-PT	14/0
-ab_titer	IgG-PT	igg-pt	IgG-PT	120
-ab_titer	IgG-PT	igg-pt	IgG-PT	120/0
-live_cell_percentages	Monocytes	monocytes	Monocytes	1
-rnaseq	CCL3	ccl3	ENSG00000277632	3
+plasma_ab_titer	IgG-PT	igg-pt	IgG-PT	14
+plasma_ab_titer	IgG-PT	igg-pt	IgG-PT	14/0
+plasma_ab_titer	IgG-PT	igg-pt	IgG-PT	120
+plasma_ab_titer	IgG-PT	igg-pt	IgG-PT	120/0
+pbmc_cell_frequency	Monocytes	monocytes	Monocytes	1
+pbmc_gene_expression	CCL3	ccl3	ENSG00000277632	3
