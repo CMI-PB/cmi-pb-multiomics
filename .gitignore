@@ -44,3 +44,8 @@ second_challenge/results/refs/*
 !second_challenge/results/refs/gencode/
 !second_challenge/results/refs/tasks.tsv
 second_challenge/results/main/cmi_pb_datasets/processed/all_versus_all/
+
+shared/refs/*
+shared/refs/genocode/*
+!shared/refs/gencode/download.sh
+third_challenge/init/
